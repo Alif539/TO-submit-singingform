@@ -1,0 +1,131 @@
+/* gobal css starts here */
+*{margin: 0;padding: 0; box-sizing: border-box;}
+.container{ width: 1444px;margin:0 auto;}
+.structure{ width: 1244px; margin: 0 auto;}
+.fix{overflow: hidden;}
+.fl{float:left;}
+.fr{float: right;}
+.clr{clear: both;}
+/* gobal css ends here */
+/* nav section starts here */
+.navarea{background-color: #303030;}
+.naviBar{padding: 11px 0px;}
+.logo{width:20%; text-align: center; padding: 5px;border-radius: 5px }
+.logo:hover { background-color: #e8631c;transition: all .6s ease-in;cursor: pointer; }
+.logo a {margin-left: -50px;}
+.logo a:hover {filter: invert();}
+.navMenu{width:60%;margin-top: 35px;}
+.navMenu ul{text-align: center;}
+.navMenu ul li{display: inline-block; list-style: none;}
+.navMenu ul li a{ text-decoration: none; color: #ffffff;border-radius: 5px; font-weight: 600;font-size: 18px; text-transform: uppercase; margin: 4px 15px 0px 15px;padding: 5px;}
+.navMenu ul li a:hover{ background-color: #e8631c;transition: all .3s ease-in;cursor: pointer; }
+.serch{width:20%;margin-top: 25px; position: relative; z-index: 1;}
+.serch::before{content:'';position: absolute; height: 100%;width:100%;top: 0;right: 0; ; z-index: -1;border-radius: 5px;}
+.serch:hover:before{ transition: all .6s linear ; background-color: white;}
+.serch a{float: right;}
+.serch a img{margin-top: 4px;margin-right: 5px;}
+.serch a:hover img{filter: invert();}
+/* nav section ends here */
+/* hero area starts here */
+.megaHero{background-image: url('images/headerImg.png');background-size: cover;background-repeat: no-repeat;}
+.heroarea{}
+.heroText{    width: 37%;margin-top: 236px;margin-left: 1px;padding-bottom:120px;}
+.heroarea h1{color: white;font-size: 96px;}
+.heroarea p{font-size: 21px;;color: white;margin-bottom: 59px;margin-top: 19px;}
+.heroarea a{ text-decoration: none;color: white;padding: 5px;background-color:#e8631c; padding: 12px 43px;font-size: 16px;border-radius: 5px;}
+.heroarea a:hover{color:black;background-color: white;transition: .6s; }
+/* hero area ends here */
+/* cart section starts here */
+.danceTour{background-image: url('images/dottedBackground.png');background-size: cover;background-repeat: no-repeat;}
+.tourDiv{}
+.tourText{    text-align: center;margin-top: 120px;width: 75%;margin-left: 200px;}
+.tourText h1{color: white;font-size: 70px;}
+.tourText p{color: white;font-size: 32px;font-weight: 400;margin-top: 44px;margin-bottom: 89px;}
+.danceCart{ width: 30%;margin-left: 1.5%;margin-right: 1.5%; margin-bottom: 100px; }
+.danceCart:hover{ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+.danceCart a{}
+.cSubText{    background-color: #303030;text-align: center;width: 99.7%;margin-top: -5px;padding: 8px;}
+.cSubText h4{color: white; font-size: 35px;margin-top: 25px;}
+.cSubText p{color: white;font-size: 30px;margin-top: 20px;}
+/* cart section ends here */
+/* pricing area strats here */
+
+.pricing{background-image: url('images/bgImgTwo.png');}
+.pricingboxes {}
+.pricingText{text-align: center;margin-top: 90px;width: 65%; margin-left: 250px;}
+.pricingText h1{color: white;font-size: 70px; }
+.pricingText p{color: white;font-size: 32px;font-weight: 400;margin-top: 44px;margin-bottom: 89px;}
+.mainCart{ width: 30%;text-align: center;line-height: 45px;background-color:#e8631c; margin-left:1.5% ;margin-right: 1.5%;padding:60px 10px;border-radius: 5px;margin-bottom: 90px;}
+.mainCart:hover{ box-shadow: 0 14px 28px rgba(232, 232, 240, 0.25), 0 10px 10px rgba(255, 255, 255, 0.22);cursor: pointer;}
+.mainCart img{}
+.mainCart h3{color: white;font-size: 40px; margin-bottom: 20px;}
+.mainCart p{color: white;font-size: 30px;margin-bottom: 30px;}
+.mainCart a{text-decoration: none;color: white;background-color:#303030; padding: 15px 70px;font-size: 25px;border-radius: 5px;}
+.mainCart a:hover{color:black;background-color: white;transition: .6s;}
+
+
+
+/* pricing area ends here */
+
+/* tamplate section starts here */
+.tamplate{ background-color:#e8631c ;}
+.danceBoxesone {border:none;}
+.danceBoxestwo {border:none;}
+.dancingBoyone {width: 50%; border:none;}
+.dancingBoyone img{width: 100%;height: 100%;}
+.damcingTextOne {background-image: url('images/danceBgTwo.png'); background-size:cover;background-repeat:no-repeat; padding-left: 80px;padding-right: 80px;padding-top: 300px;padding-bottom: 316px; width:50%;}
+.damcingTextOne h1{ color: white;font-size: 60px;margin-bottom: 50px;}
+.damcingTextOne p{color: white;font-size: 30px; margin-bottom:60px;}
+.damcingTextOne a{text-decoration: none;color: white;background-color:#303030; padding: 15px 70px;font-size: 25px;border-radius: 5px;}
+.damcingTextOne a:hover{color:black;background-color: white;transition: .6s; }
+.dancingBoytwo {width: 50%;border:none;}
+.dancingBoytwo img{width: 100%;height: 100%;}
+.damcingTextTwo {background-image: url('images/dabceBg1.png'); background-size:cover;background-repeat:no-repeat; padding-left: 80px;padding-right: 80px;padding-top: 300px;padding-bottom: 316px;width:50%;}
+.damcingTextTwo h1{ color: white;font-size: 60px; margin-bottom: 50px;}
+.damcingTextTwo p{color: white;font-size: 30px; margin-bottom:60px;}
+.damcingTextTwo a{text-decoration: none;color: white;background-color:#303030; padding: 15px 70px;font-size: 25px;border-radius: 5px;}
+.damcingTextTwo a:hover{color:black;background-color: white;transition: .6s; }
+/* tamplate section ends here */
+/* stats area starts here */
+.stats{background-color: #303030;}
+.statText {}
+.statHead{text-align: center;margin-top: 300px;width: 60%;margin-left: 260px;}
+.statHead h1 {color: white;font-size: 60px; margin-bottom: 50px;}
+.statHead p {color: white;font-size: 40px; margin-bottom:60px}
+.countBox{ text-align: center;  }
+.countBox h1{color: white;font-size: 60px; margin-bottom: 50px;}
+.countBox p{color: white;font-size: 40px; margin-bottom:60px;}
+.cbox{width: 30%;margin-left: 1.5%;margin-right: 1.5%; margin-top: 130px;margin-bottom: 230px; border-radius: 10px;}
+.cbox:hover{ box-shadow:inset 0 14px 28px rgba(0, 0, 0, 0.25),inset 0 10px 10px rgba(0, 0, 0, 0.22);cursor: pointer;}
+
+/* stats area ends here */
+/* hazzyArea starts here */
+.hazzyArea{ background-image: url('images/opacirtyimg.png');background-size: cover;mask-repeat: no-repeat;}
+.hazzyText{ text-align: center;padding-top: 350px;padding-bottom: 350px;}
+.hazzyText p{color: white;font-size: 60px; margin-bottom:100px;}
+.hazzyText h1{color: white;font-size: 70px; margin-bottom: 70px;}
+
+/* hazzyArea ends here */
+/* subscribe area starts here */
+.subscribe{background-image: url('images/dottedTransparentBg.png');}
+.subcribeBox{ text-align: center;padding-top:200px;padding-bottom: 200px;}
+.subcribeBox h1{color: white;font-size: 70px; margin-bottom: 70px; }
+.subcribeBox p{color: white;font-size: 60px; margin-bottom:100px;}
+#serchtext{ padding: 22px 14px; font-size:25px;    width: 50%;}
+.subcribeBox a{text-decoration: none;color: white;background-color:#303030; padding: 25px 40px;font-size: 25px;position: relative;left: -6px;}
+.subcribeBox a:hover{width:30%;color:black;background-color: white;transition: .6s; margin-left:2px;}
+/* subscribe area ends here */
+/* footer Area starts here */
+.footeArea{background-color: #303030;}
+.box{ padding-top:150px;padding-bottom: 100px;}
+.ostfooterbx h2{color: white;font-size: 35px; margin-bottom:40px;}
+.ostfooterbx p{color: white;font-size: 30px; margin-bottom:50px;}
+.ostfooterbx{width: 35%;margin-right: 15%;}
+.socialAREA{}
+.socialAREA a{margin-left: 9px;}
+.socialAREA a:hover{filter: invert();cursor: pointer;}
+.randoBoxes{width: 50%;}
+.rando{width: 30%;margin-right: 1.5%;margin-left:1.8%; text-align: center; text-align: left;line-height: 48px;}
+.rando h1{color: white;font-size: 35px; margin-bottom: 50px;}
+.rando p{color: white;font-size:30px; margin-bottom:50px; font-weight: 500;}
+/* footer Area ends */
